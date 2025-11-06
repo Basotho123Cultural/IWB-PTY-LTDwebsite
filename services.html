@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<header>
+    <div class="menu-icon" id="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <nav id="navLinks">
+    <ul>
+     <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Our services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+<h1>Our services</h1>
+<h2>Corporate e-Waste Recycling</h2>
+<p>This service helps businesses safely dispose of old or unused electronic equipment such as computers, printers, and servers. </p>
+
+<h2>Secure Data Destruction</h2>
+<p> This ensures that no confidential business data can be recovered or misused after disposal.</p>
+
+<h2>Community Drop-off Points</h2>
+<p>These are convenient collection centers where individuals and small businesses can drop off unwanted electronics for recycling. </p>
+
+<footer class="footer">
+    <p>© 2023 IWB PTY LTD. All rights reserved   <a href="contact.html">click here</a></p>
+  </footer>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const menuIcon = document.getElementById('menu-icon');
+  const navLinks = document.getElementById('navLinks');
+
+  if (menuIcon && navLinks) {
+    menuIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  }
+});
+</script>
+</body>
+</html>
