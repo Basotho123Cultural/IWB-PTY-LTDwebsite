@@ -123,6 +123,33 @@ nav ul {
   top: 100%; 
   z-index: 1000;
 }
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.service-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 25px;
+  flex: 1 1 300px;
+  max-width: 350px;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h2 {
+  color: #0072ce;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1em;
+  color: #555;
+}
 
 nav ul li a {
   text-decoration: none;
@@ -190,4 +217,5 @@ nav.show ul {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px 20px;
+
 }
